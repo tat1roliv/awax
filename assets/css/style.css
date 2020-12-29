@@ -79,33 +79,33 @@ header{
     overflow: hidden;
     
    }
-   .banner .sls{
+.banner .sls{
     widows: 1000vw; 
     height: 100%;
 }
-   .banner .slide{
-       width: 100vw;
-       height: 100%;
-       display: inline-block;
-       background-color: rgba(0, 0, 0, 0.7);
+.banner .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
    }
-   .banner .slidearea{
-       display: flex;
-       flex-direction: column;
-       height: 100%;
-       justify-content: center;
-       align-items: center;
-       color: #FFF;
+.banner .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
    }
-   .banner h1{
-       text-transform: uppercase;
-       font-weight: bold;
-       font-size: 50px;
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
    }
-   .banner h1 span{
-       color: #B28756;
+.banner h1 span{
+    color: #B28756;
    }
-   .banner h2{
+.banner h2{
     text-transform: uppercase;
     margin-top: 20px;
    }
