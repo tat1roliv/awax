@@ -120,5 +120,14 @@ header{
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
-
+}
+.banner .sls-pointers{
+    width: 100vw;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
