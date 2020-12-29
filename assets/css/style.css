@@ -69,3 +69,16 @@ header{
     background-color:#B28756 ;
     padding-top: 15px;
     }
+    
+.banner{
+    /*altura ajustada a tela
+    height: 100vh;
+    */
+    height: calc(100vh);
+    background-color: #333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+    }
