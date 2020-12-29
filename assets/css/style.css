@@ -53,9 +53,11 @@ header{
 }
 .menu li a:hover{
     border-bottom: 5px solid #B28756; 
+    color: #cccccc;
 }
-.menu .active a{
+.menu.active a{
     border-bottom: 5px solid #B28756;
+    color: #cccccc;
 }
 /*logo in header*/
 .logo{
