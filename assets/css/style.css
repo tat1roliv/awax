@@ -66,6 +66,7 @@ header{
     height: 50px;
     background-color:#B28756 ;
     padding-top: 15px;
+    border-radius: 25px;
     }
 
 /*BANNER*/
@@ -90,5 +91,42 @@ header{
     /*slides posicionados na horizontal*/
     display: inline-block;
     /*filtro sobre imagem*/
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .slidearea {
+    /*slide 1 content*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    /*centraliz vert horiz*/
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px; 
+}
+.banner h1 span{
+    color: #B28756;
+}
+.banner h2{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.banner a{
+    display: block;
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: 1px solid #333;
+    border-radius: 25px;
+
 }
