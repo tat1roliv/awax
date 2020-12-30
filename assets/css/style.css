@@ -71,7 +71,7 @@ header{
     }
     
 .banner{
-    height:100vh;
+    height: calc(100vh - 80px);
     background-color: #333;
     background-image: url('../images/bg.jpg');
     background-size: cover;
@@ -79,7 +79,8 @@ header{
     overflow: hidden;
     
    }
-.banner .sls{
+.banner .sliders{
+    /*10 slides>1000vw; 1 = 100*/
     widows: 1000vw; 
     height: 100%;
 }
