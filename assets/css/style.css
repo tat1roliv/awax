@@ -82,7 +82,6 @@ header{
     /*largura total (n)slides = tela x n(slides)*/
     width: 1000vw;
     height: 100%;
-    background-color: red;
 }
 .banner .slide{
     /*vw (width) vh(height)*/
@@ -90,4 +89,6 @@ header{
     height: 100%;
     /*slides posicionados na horizontal*/
     display: inline-block;
+    /*filtro sobre imagem*/
+    background-color: rgba(0, 0, 0, 0.7);
 }
