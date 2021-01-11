@@ -177,3 +177,17 @@ header{
     min-height: 100px;
     background-color: #CCC;
 }
+/*default light*/
+.default.light{
+    background-color: #F7F7F7;
+}
+.default.light .section-title{
+    color: black;
+}
+/*default dark*/
+.default.dark{
+    background-color: black;
+}
+.default.dark .section-title{
+    color: #f7f7f7;
+}
