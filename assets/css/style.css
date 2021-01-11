@@ -1,4 +1,6 @@
-/*GENERAL*/
+/**/
+/*general*/
+/**/
 *{
     box-sizing: border-box;
 }
@@ -175,19 +177,25 @@ header{
     margin: auto;
     max-width: 1140px;
     min-height: 100px;
-    background-color: #CCC;
 }
 /*default light*/
 .default.light{
     background-color: #F7F7F7;
 }
-.default.light .section-title{
+.default.light .section-title,
+.default.light .section-body{
     color: black;
 }
 /*default dark*/
 .default.dark{
     background-color: black;
 }
-.default.dark .section-title{
+.default.dark .section-title,
+.default.dark .section-body{
     color: #f7f7f7;
 }
+
+
+/**/
+/*specific areas*/
+/**/
