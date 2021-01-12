@@ -251,13 +251,12 @@ header{
     flex-direction: column;
     align-items: center;
 }
-.section-projects--filters{
+.section-projects--filters {
     border: 1px solid #CCC;
     background-color: #EEE;
     border-radius: 30px;
     display: inline-block;
-    padding: 0 20px;
-    
+    padding: 0px 10px;  
 }
 .section-projects--filters ul,
 .section-projects--filters li{
@@ -265,16 +264,17 @@ header{
 }
 .section-projects--filters li{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     text-transform: uppercase;
     font-size: 13px;
     border-left: 1px solid #CCC;    
     color: #555;
     border-bottom: 3px solid #EEE ;
 }
-/*.section-projects--filters li.active*/
+
 .section-projects--filters li:hover{
     border-bottom: 3px solid #B28756;
+    cursor:pointer;
 }
 .section-projects--filters li:first-child{
     border-left: 0;
