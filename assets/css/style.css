@@ -308,7 +308,6 @@ header{
     align-items: center;
     color: white;
     flex-direction: column;
-    margin-top: 20px;
 }
 .section-projects--photoarea img{
     width: inherit;
