@@ -207,6 +207,10 @@ header{
 .section-aboutus--left{
     flex: 1;
 }
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 30px;
+}
 .section-aboutus--right{
     width: 520px;
     text-align: center;
