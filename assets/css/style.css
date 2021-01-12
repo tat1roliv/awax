@@ -317,9 +317,15 @@ header{
 .section-projects--photoinfo h5{
     font-size: 15px;
     font-weight: 400;
+    text-transform: uppercase;
+}
+.section-projects--photoinfo p{
+    text-align: center;
+    font-size: 12px;
 }
 .section-projects--photoarea:hover .section-projects--photoinfo{
     display: flex;
 }
+
 
 
